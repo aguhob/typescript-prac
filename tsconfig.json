@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "module": "commonjs", // instruct TypeScript to use the CommonJS module format.
+    "removeComments": true, //avoid adding comments in the generated JavaScript files.
+    "target": "es2015", // help us in debugging the code generated.
+    "outDir": "./bin" // defines where the compiled code will reside.
+  },
+  "include": ["src/**/*"]
+}
